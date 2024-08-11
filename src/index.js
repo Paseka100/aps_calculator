@@ -49,7 +49,7 @@ const formFull=document.getElementById("formFull")
 
         if (resultsTable.rows.length >= maxEntries) {
             const sum = calculateSum();
-            apsScore.textContent = `APS total = ${sum}`;
+            apsScore.textContent = `APS TOTAL = ${sum}`;
         } else {
             apsScore.textContent = `Fill in ${maxEntries} subjects to calculate your APS score`;
             apsScore.style.color = "red"; 
