@@ -1,5 +1,5 @@
 # Admission Point Score calculator
-* a calculator designed to help calculator aps with easy
+* a calculator designed to help calculator aps  easy
 * view the live calculator [here](https://paseka100.github.io/aps_calculator)
 
 ### future updates:
