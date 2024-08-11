@@ -57,7 +57,6 @@ const formFull=document.getElementById("formFull")
                 apsScore.textContent = ""; 
                 apsScore.style.color = ""; 
             }, 3000);
-            alert(`Enter ${maxEntries} subjects to calculate APS`);
         }
     });
 
@@ -67,7 +66,6 @@ const formFull=document.getElementById("formFull")
         if (resultsTable.rows.length >= maxEntries) {
             formFull.textContent="7 subjects entered click view marks "
             formFull.style.color="red"
-            alert('You can only enter up to 7 subjects.');
             return;
         }
 
